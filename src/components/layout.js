@@ -6,7 +6,7 @@ import "./layout.css";
 
 function Layout({ children }) {
     return (
-        <identityContentProvider url="https://jam-intro-auth.netlify.com">
+        <identityContentProvider url="https://jam-auth-net.netlify.com">
             <header>
                 <Link to="/">JAMstack app</Link>
             </header>
