@@ -1,11 +1,14 @@
 {
-  "name": "jam-dash",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
-  "dependencies": {
-    "gatsby": "^2.24.52",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
-  }
+    "name": "jam-dash",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "develop": "gatsby develop"
+    },
+    "dependencies": {
+        "gatsby": "^2.24.52",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1"
+    }
 }
