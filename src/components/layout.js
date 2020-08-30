@@ -1,17 +1,17 @@
 import React from "react";
 import { Link } from "gatsby";
-import { identityContentProvider } from "react-netlify-identity-widget";
+import { IdentityContextProvider } from "react-netlify-identity";
 
 import "./layout.css";
 
 function Layout({ children }) {
     return (
-        <identityContentProvider url="https://jam-auth-net.netlify.com">
+        <IdentityContextProvider url="https://jam-auth-net.netlify.app">
             <header>
                 <Link to="/">JAMstack app</Link>
             </header>
             <main>{children}</main>
-        </identityContentProvider>
+        </IdentityContextProvider>
     );
 }
 
